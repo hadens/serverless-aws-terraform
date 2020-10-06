@@ -1,10 +1,12 @@
 # serverless-aws-terraform
-This repository contains code to deploy a "Hello World" serverless application along with an API Endpoint to invoke the application.
+This repository contains code to deploy a "Hello World" serverless application along with an HTTP API Endpoint to invoke the application.
 
 I will be using AWS Lambda and API Gateway for the application backend and will be using Terraform to automate all infrastructure provisioning.
 
+## Notes
 I created this for a personal challenge and used it as a learning opportunity. Hopefully this will be helpful for anyone in need of an example to work off. Pull requests are welcome.
 
+![serverless_hello_world](https://user-images.githubusercontent.com/5347195/95243188-1a87ef00-07c5-11eb-8658-fa2773abb311.png)
 
 ## Usage
 
