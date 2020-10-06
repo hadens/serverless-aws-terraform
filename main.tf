@@ -74,7 +74,7 @@ resource "aws_iam_role_policy" "iam_policy_for_gateway" {
         {
             "Effect": "Allow",
             "Action": "lambda:InvokeFunction",
-            "Resource": "*"
+            "Resource": "${aws_lambda_function.hello_world.arn}"
         }
     ]
 }
