@@ -22,7 +22,7 @@ I created this for a personal challenge and used it as a learning opportunity. H
 | region                 | Region to deploy in                          | `string` | `"us-west-2"`                               |   yes    |
 | lambda\_function\_code | Lambda function deployment package file path | `string` | `"./modules/lambda/hello-world-lambda.zip"` |   yes    |
 
-**Note: ** A majority of inputs have been omitted, such as parameters for the Lambda function name, IAM role names, etc. These are located in `variables.tf`. 
+**Note:** A majority of inputs have been omitted, such as parameters for the Lambda function name, IAM role names, etc. These are located in `variables.tf`. 
 
 ### Outputs
 | Name               | Description                                                   |
